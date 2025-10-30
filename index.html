@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script/script.js" defer></script>
+    <title>Sample project</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <h2>LOGO</h2>
+    </div>
+    <div class="nav-links">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button type="button" class="btn" id="buttonClick">Login</button>
+    </div>
+  </header>
+  <div id="overlay" class="overlay"></div>
+
+  <div class="container" id="loginCtn">
+        <button type="button" class="close-btn" id="closeBtn">&times;</button>
+             <h2>Login</h2>
+
+                 <form>
+                     <div class="input-mail">
+                        <input type="email" placeholder="Email" required aria-label="email">
+                           <i class="fa-solid fa-envelope"></i>
+                         </div>
+                              <div class="input-pass">
+                                 <input type="password" placeholder="Password" required aria-label="password">
+                                     <i class="fa-solid fa-lock"></i>
+                                     </div>
+                                    <div class="option">
+                                  <label><input type="checkbox" id="remember me">Remember Me</label>
+                                <a href="#">Forgot Password?</a>
+                              </div>
+                           <button type="submit" class="submit-btn">Login</button>
+                   <p class="register">Don't have an account? <a href="#">Register</a></p>
+              </form>
+              
+         </div>
+   </body>
+</html>

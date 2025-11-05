@@ -243,4 +243,12 @@ input:focus + i {
     text-decoration: underline;
     color: var(--white);
 }
-
+@media (max-width: 700px) {
+    .nav-links ul {
+        gap: 20px;
+        display: none;
+    }
+    header {
+        gap: 20px;
+    }
+}
